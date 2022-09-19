@@ -1,4 +1,4 @@
-import conversor.conversor as methodTest
+from conversor import conversor as methodTest
 import pytest
 
 def test_conversor():
