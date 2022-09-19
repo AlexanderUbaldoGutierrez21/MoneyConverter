@@ -1,5 +1,5 @@
-import conversor
+import conversor.conversor as methodTest
 import pytest
 
 def test_conversor():
-    assert conversor.conversor("colombianos", 3875, 1000) == 0.26
+    assert methodTest("colombianos", 3875, 1000) == 0.26
