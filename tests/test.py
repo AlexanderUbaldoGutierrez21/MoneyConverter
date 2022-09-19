@@ -1,5 +1,5 @@
 import conversor
 import pytest
 
-def test_capital_case():
+def test_conversor():
     assert conversor.conversor("colombianos", 3875, 1000) == 0.26
